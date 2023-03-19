@@ -13,17 +13,17 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16kb_index_service.proto\"z\n\x0eKBIndexRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03url\x18\x02 \x01(\t\x12\x0b\n\x03tag\x18\x03 \x01(\t\x12\x0b\n\x03key\x18\x04 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x05 \x01(\t\x12\x0f\n\x07indexed\x18\x06 \x01(\r\x12\r\n\x05kb_id\x18\x07 \x01(\t\"\x1a\n\x0cKBIndexReply\x12\n\n\x02ok\x18\x01 \x01(\x08\x32\x94\x01\n\x0eKBIndexService\x12*\n\x06\x43reate\x12\x0f.KBIndexRequest\x1a\r.KBIndexReply\"\x00\x12*\n\x06Modify\x12\x0f.KBIndexRequest\x1a\r.KBIndexReply\"\x00\x12*\n\x06\x44\x65lete\x12\x0f.KBIndexRequest\x1a\r.KBIndexReply\"\x00\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16kb_index_service.proto\"\x86\x01\n\x0eKBIndexRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\x0b\n\x03url\x18\x02 \x01(\t\x12\x0b\n\x03tag\x18\x03 \x01(\t\x12\x0b\n\x03key\x18\x04 \x01(\t\x12\x13\n\x0b\x64\x65scription\x18\x05 \x01(\t\x12\x0f\n\x07indexed\x18\x06 \x01(\r\x12\r\n\x05kb_id\x18\x07 \x01(\t\x12\n\n\x02id\x18\x08 \x01(\r\"\x1a\n\x0cKBIndexReply\x12\n\n\x02ok\x18\x01 \x01(\x08\x32\x94\x01\n\x0eKBIndexService\x12*\n\x06\x43reate\x12\x0f.KBIndexRequest\x1a\r.KBIndexReply\"\x00\x12*\n\x06Modify\x12\x0f.KBIndexRequest\x1a\r.KBIndexReply\"\x00\x12*\n\x06\x44\x65lete\x12\x0f.KBIndexRequest\x1a\r.KBIndexReply\"\x00\x62\x06proto3')
 
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, globals())
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'kb_index_service_pb2', globals())
 if _descriptor._USE_C_DESCRIPTORS == False:
 
   DESCRIPTOR._options = None
-  _KBINDEXREQUEST._serialized_start=26
-  _KBINDEXREQUEST._serialized_end=148
-  _KBINDEXREPLY._serialized_start=150
-  _KBINDEXREPLY._serialized_end=176
-  _KBINDEXSERVICE._serialized_start=179
-  _KBINDEXSERVICE._serialized_end=327
+  _KBINDEXREQUEST._serialized_start=27
+  _KBINDEXREQUEST._serialized_end=161
+  _KBINDEXREPLY._serialized_start=163
+  _KBINDEXREPLY._serialized_end=189
+  _KBINDEXSERVICE._serialized_start=192
+  _KBINDEXSERVICE._serialized_end=340
 # @@protoc_insertion_point(module_scope)
