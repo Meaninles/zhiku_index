@@ -13,5 +13,10 @@ def serve():
     server.wait_for_termination()
 
 
+def init():
+    print(">>>>>>>>>>初始化服务>>>>>>>>>>")
+
+
 if __name__ == '__main__':
+    init()
     serve()
